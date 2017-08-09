@@ -1,0 +1,36 @@
+.slider {
+    width: 640px;
+    margin: 100px auto;    
+}
+
+img {
+    width: 100%;
+}
+.slider > a {
+    display: block;
+    padding: 0px 3px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    padding: 0px 0px;
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+ul li:last-child {
+
+}
+
+.active {
+    border: 3px solid black;
+    transition: all 0.5s;
+}
